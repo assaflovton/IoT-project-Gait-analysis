@@ -1,0 +1,113 @@
+<html>
+<head>
+    <title>BLE Dynamic UI</title>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+</head>
+
+<script language="JavaScript">
+function startup() {
+	try {
+		window.bleui.Info("Starting up....");
+	} catch (ee) {
+
+	}
+}
+
+function go() {
+    document.getElementById('status').class='notconnected';
+    window.bleui.interrogate();
+    window.bleui.configure();
+}
+function setClassOnArduino(c) {
+    document.getElementById('status').className = c;
+}
+function setActuating(c) {
+    document.getElementById('toshiba').className = c;
+    document.getElementById('liftmaster').className = c;
+}
+function setStatus(s) {
+    document.getElementById('status').innerHTML = s;
+
+}
+
+
+</script>
+<style>
+
+.notconnected {
+    padding: 10px;
+    border: 5px solid red;
+}
+.searching {
+    padding: 10px;
+    border: 5px dotted #00BCFF;
+}
+.discovering {
+    padding: 10px;
+    border: 5px dashed #00BCFF;
+}
+.communicating {
+    padding: 10px;
+    border: 5px solid #00BCFF;
+}
+.recording {
+    padding: 10px;
+    border: 5px solid #00BCFF;
+}
+.button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 20px 20px;
+  background-color: #00BCFF;
+  border: none;
+  color: white;
+  width:180px;
+  height:70px;
+  gravity:center;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.button:active {
+  background-color: #00BCFF;
+   -webkit-animation-name: grow;
+   -webkit-animation-duration: 0.3s;
+}
+
+@keyframes grow {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.95);
+    }
+}
+</style>
+<body style="background-color:#0E0E0E;">
+<center>
+
+    <button onclick="go();" , class="button"  > Connect</button>
+
+    <h3 id="status" , style="width:150px; padding: 20px 10px; color:white;">Disconnected</h3>
+
+
+</center>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
