@@ -3,9 +3,17 @@
 
 Hello and Welcome, here you can find the final results of our project.
 
-### [App related files:](https://github.com/assaflovton/IoT-project-Gait-analysis/tree/main/App)
+### App related files:
 
-- Inside "App" folder you can find all related files.
+- [Inside "App" folder you can find all related files.](https://github.com/assaflovton/IoT-project-Gait-analysis/tree/main/App)
+
+  - MainActivity.java - the main screen.
+  - SamplesActivity.java - the graphs screen.
+  - User.java - defines a user object.
+  - SampleData.java - defines a sample object.
+  - BLEQueueItem.java - handels the bluetooth communication.
+  - LoginActivity.java - login screen using firebase authentication.
+  - RegisterActivity.java - registration screen using firebase.
 
 ### Algorithm related files:
 
