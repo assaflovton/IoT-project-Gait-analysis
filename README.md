@@ -3,18 +3,13 @@
 
 Hello and Welcome, here you can find the final results of our project.
 
-### Development history
-
-- [App Development]()
-- [Algorithm Development]() 
-
-### App related files:
+### [App related files:](https://github.com/assaflovton/IoT-project-Gait-analysis/tree/main/App)
 
 - Inside "App" folder you can find all related files.
 
 ### Algorithm related files:
 
-- Inside "Arduino" folder you can find:
+- [Inside "Arduino" folder you can find:](https://github.com/assaflovton/IoT-project-Gait-analysis/tree/main/Arduino)
 
   - arduinoCode.ino - the arduino code.
   - simulateAlgoOnData.py - a simulation of the algrorithm written in python for fast development.
@@ -22,7 +17,12 @@ Hello and Welcome, here you can find the final results of our project.
 
 ### project details:
 
-- Inside "Project details" folder you can find all submission related files.
-  - Final report - a vast overview of the project
-  - Poster - a short overview of the project 
-  
+- [Inside "Project details" folder you can find all submission related files.](https://github.com/assaflovton/IoT-project-Gait-analysis/tree/main/Project%20details)
+
+  - Final report - a vast overview of the project.
+  - Poster - a short overview of the project.
+
+### Development history
+
+- [App Development](https://github.com/assaflovton/ibmbleandroid)
+- [Algorithm Development](https://github.com/assaflovton/GaitAnalysis) 
