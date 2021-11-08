@@ -20,12 +20,12 @@ Hello and Welcome, here you can find the final results of our project.
 - [Inside "Arduino" folder you can find:](https://github.com/assaflovton/IoT-project-Gait-analysis/tree/main/Arduino)
 
   - arduinoCode.ino - the arduino code.
-  - simulateAlgoOnData.py - a simulation of the algrorithm written in python for fast development.
+  - simulateAlgoOnData.py - a simulation of the algorithm written in python for fast development.
   - 1_data.csv - a sample for testing the algorithm.
 
-### project details:
+### Project details:
 
-- [Inside "Project details" folder you can find all submission related files.](https://github.com/assaflovton/IoT-project-Gait-analysis/tree/main/Project%20details)
+- [Inside the "Project details" folder you can find all submission-related files.](https://github.com/assaflovton/IoT-project-Gait-analysis/tree/main/Project%20details)
 
   - Final report - a vast overview of the project.
   - Poster - a short overview of the project.
