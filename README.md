@@ -1,5 +1,4 @@
 # IoT project Gait analysis
- final submission
 
 Hello and Welcome, here you can find the final results of our project.
 
