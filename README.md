@@ -1,6 +1,8 @@
 # IoT project Gait analysis
 
-Hello and Welcome, here you can find the final results of our project.
+Hello and Welcome, here you can find the final results of our project. 
+Take a look at our [poster](
+https://github.com/assaflovton/IoT-project-Gait-analysis/blob/main/Project%20details/Poster.pdf)
 
 ### App related files:
 
